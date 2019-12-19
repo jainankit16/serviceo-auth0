@@ -1,0 +1,23 @@
+{
+  "name": "serviceo-auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "serviceo-core": "git+https://github.com/jainankit16/serviceo-core.git"
+  },
+  "devDependencies": {
+    "@adonisjs/ace": "^5.0.8",
+    "@adonisjs/fold": "^4.0.9",
+    "@adonisjs/framework": "^5.0.13",
+    "japa": "^1.0.6",
+    "japa-cli": "^1.0.1"
+  }
+}
