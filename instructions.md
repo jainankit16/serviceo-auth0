@@ -1,7 +1,15 @@
-## Register middleware
+## Register provider & middleware
+Register provider inside `start/app.js` file.
+
+```js
+const providers = [
+  'serviceo-auth0/providers/ServiceoAuth0Provider'
+]
+
+
 Register middleware inside `start/kernel.js` file.
 
 ```js
 const namedMiddleware = {
-  auth0: 'serviceo-auth0/Middleware/Auth0Auth'
+  auth0: 'Serviceo/Auth0Middleware'
 }

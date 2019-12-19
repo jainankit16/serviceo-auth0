@@ -11,7 +11,7 @@ class ServiceoAuth0Provider extends ServiceProvider {
    * @return {void}
    */
   register() {
-    this.app.singleton('Serviceo/Auth0', () => {
+    this.app.singleton('Serviceo/Auth0Middleware', () => {
       const Config = this.app.use('Adonis/Src/Config')
       const ServiceoCore = require('../src/ServiceoAuth0')
       return new ServiceoCore(Config)
