@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "serviceo-core": "git+https://github.com/jainankit16/serviceo-core.git"
   },
   "devDependencies": {
